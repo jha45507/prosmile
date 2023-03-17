@@ -107,7 +107,7 @@ html {
 
 .banner_content_div {
     display: flex;
-    align-items: start;
+    align-items: baseline;
     justify-content: space-around;
     padding: 150px 0px;
 }
@@ -211,6 +211,10 @@ html {
     color: white;
 }
 
+.logo_footer_img{
+    
+}
+
 .address_icons {
     margin: 10px 0px;
     display: flex;
@@ -248,13 +252,13 @@ html {
 .contect_form {
     width: 100%;
     height: auto;
+    background-color: #333333;
 }
 
 .contect_form_child {
-    width: 75%;
+    width: 50%;
     height: auto;
     margin: 10px auto;
-    background-color: #333333;
     color: white;
     padding: 50px 100px;
     border-radius: 10px;
@@ -510,7 +514,7 @@ p {
 .gallery {
     width: 100%;
     height: auto;
-    background: url(/images/service1.jpg);
+    /* background: url(/images/service1.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1px 0px;
@@ -696,9 +700,21 @@ p {
         font-size: 25px;
     }
 
-    /* .youtube_video{
-        width: 35%;
-    } */
+    .banner_content_div {
+        padding: 0px 0px;
+    }
+
+    .about_img_parent_div {
+        justify-content: space-around;
+    }
+
+    .treatment_team {
+        justify-content: center;
+    }
+
+    .awards_section_child {
+        width: 80%;
+    }
 
     /* start phoneView Navbar */
 
@@ -735,7 +751,7 @@ p {
     }
 
     .phone_view_unorderlist {
-        top: 2%;
+        top: 65px;
     }
 
     .phone_view_unorderlist li {
@@ -765,8 +781,12 @@ p {
 
     .contect_form_child {
         width: 100%;
-        padding: 50px 5px;
+        padding: 0px 15px;
         border-radius: 0px;
+    }
+
+    #contect-form{
+        margin: 25px 0px;
     }
 }
 
@@ -786,18 +806,19 @@ p {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        align-items: center;
+        align-items: baseline;
         margin-top: 0px;
     }
 
     .banner_heading {
         color: white;
-        font-size: 25px;
+        font-size: 50px;
         text-align: center;
     }
-
-    .phone_view_unorderlist {
-        top: 4%;
+    .banner_heading span{
+        color: white;
+        font-size: 50px;
+        text-align: center;
     }
 
     .treatment_team {
