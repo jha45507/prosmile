@@ -1,0 +1,816 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: unset;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.mycontainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.custom_container {
+    width: 100%;
+    height: auto;
+}
+
+.background-img {
+    background-image: url(../images/hero_bg_1.jpg);
+    width: 100%;
+    height: 93vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desktop_view_navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    flex-wrap: wrap;
+}
+
+.phone_view_navbar {
+    display: none;
+}
+
+.logo-img-div {
+    width: 85px;
+    height: 50px;
+}
+
+.logo-img-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar_unorder_list ul {
+    display: flex;
+    align-items: start;
+    list-style-type: none;
+    color: white;
+    font-size: small;
+}
+
+.navbar_unorder_list li {
+    margin: 0px 15px;
+}
+
+.navbar_unorder_list a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_unorder_list a:hover {
+    text-decoration: underline white;
+    text-underline-offset: 10px;
+}
+
+.phone_view_unorderlist {
+    display: none;
+    background-color: #333333;
+    position: absolute;
+    top: 12%;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: small;
+}
+
+.phone_view_unorderlist a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger_bar_icon {
+    display: none;
+    color: white;
+}
+
+.close_hamburger_icon {
+    display: none;
+    color: white;
+}
+
+.banner_content_div {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding: 150px 0px;
+}
+
+.banner_heading {
+    color: white;
+    font-weight: 100;
+    font-size: 75px;
+    width: 50%;
+}
+
+.banner_heading_span {
+    color: white;
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.testimonials {
+    background-color: white;
+    color: black;
+    margin: 20px 0px;
+}
+
+.slider_parent_div {
+    width: 100%;
+    height: auto;
+}
+
+.slider_child_div {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.quote {
+    padding-left: 30px;
+    position: relative;
+    padding: 100px 50px;
+}
+
+.quote:before {
+    content: "";
+    background-image: url("/images/quote_before.png");
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    filter: invert();
+}
+
+.quote:after {
+    content: "";
+    background-image: url("/images/quote_after.png");
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    filter: invert();
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+}
+
+.footer_first_child {
+    padding: 25px 0px;
+    width: 90%;
+    height: auto;
+    margin: auto
+}
+
+.footer_details {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.footer_navigation {
+    color: white;
+}
+
+.footer_navigation ul li {
+    text-align: left;
+    margin: 10px 0px;
+    font-size: small;
+    list-style-type: none;
+}
+
+.footer_address {
+    color: white;
+}
+
+.address_icons {
+    margin: 10px 0px;
+    display: flex;
+}
+
+.address_icons a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    width: 300px;
+}
+
+.address_icons p{
+    font-size: small;
+}
+
+.follow_us {
+    text-align: center;
+    color: white;
+}
+
+.follow {
+    margin-top: 30px;
+}
+
+.emial_no {
+    margin: 5px 0px;
+}
+
+.social_icons i {
+    font-size: x-large;
+    margin: 20px;
+}
+
+.contect_form {
+    width: 100%;
+    height: auto;
+}
+
+.contect_form_child {
+    width: 75%;
+    height: auto;
+    margin: 10px auto;
+    background-color: #333333;
+    color: white;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.contect_form_child h1 {
+    font-weight: 100;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 30px;
+
+}
+
+.contect_form_child span {
+    font-weight: bold;
+}
+
+.field_parent_div {
+    width: 42%;
+    height: auto;
+}
+
+.field_parent_div label {
+    width: 100%;
+    height: auto;
+    font-size: small;
+}
+
+.field_div {
+    width: 100%;
+    height: auto;
+}
+
+.contect_form_child input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+    font: 25px;
+    padding-left: 10px;
+}
+
+.contect_form_children {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 15px 0px;
+}
+
+.textarea_parent_div {
+    width: 100%;
+}
+
+.textarea_div {
+    width: 100%;
+    height: auto;
+}
+
+.textarea_div label {
+    font-size: small;
+}
+
+.textarea {
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.submit_button_div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.submit_button {
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.why_section {
+    width: 100%;
+    height: auto;
+    /* margin: 100px 0px; */
+    background: url(/images/unnamed.png);
+    padding: 50px 0px;
+}
+
+.why_section h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.why_section_child {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    position: relative;
+}
+
+.why_us_card_img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_card {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.img_card:hover {
+    transform: rotateY(180deg);
+}
+
+.img_card .flip_card_detais {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.img_card:hover .flip_card_detais {
+    visibility: visible;
+    transform: rotateY(180deg);
+}
+
+.flip_card_detais {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2980b9;
+    top: 0%;
+    visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.flip_card_detais h3,
+p {
+    text-align: center;
+    color: white;
+}
+
+.awards_section {
+    width: 100%;
+    height: auto;
+    background: url(/images/dental.jpg);
+    padding: 50px 0px;
+}
+
+.awards_section_child {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.awards_section_child h2 {
+    font-size: 30px;
+}
+
+.awards_section_child li {
+    margin: 20px 0px;
+    font-size: 15px;
+}
+
+.our_team_section {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 50px 0px;
+}
+
+.our_team_child_section {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.our_team_child_section h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.treatment_team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.our_team_card_div {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #333333;
+    padding: 10px;
+    margin: 10px;
+}
+
+.our_team_card_div:hover {
+    box-shadow: 0px 15px 20px #646464;
+}
+
+.our_team_img_div {
+    width: 100px;
+    height: 100px;
+}
+
+.our_team_img_div img {
+    width: 100%;
+    border-radius: 50%;
+    height: auto;
+    padding: 0px;
+    border: 4px solid coral;
+}
+
+.team_name {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.team_content {
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    background: url(/images/service1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px 0px;
+}
+
+.gallery_child {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.award_parent_section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.award_img_div {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.award_img_div h3 {
+    text-align: center;
+}
+
+.award_img {
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+.award_img img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.award_img img:hover {
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.gallery_child h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0px;
+}
+
+.img_parent_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.img_parent_div h3 {
+    margin: 20px 0px;
+}
+
+.img_div {
+    width: 200px;
+    height: 200px;
+}
+
+.img_div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+}
+
+.img_div img:hover {
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.about_us_page {
+    width: 100%;
+    height: auto;
+    background: url(/images/hero_bg_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.child_about {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.about_div {
+    width: 100%;
+    height: auto;
+}
+
+.about_div h1,
+p {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+.about_div p {
+    font-size: small;
+}
+
+.about_img_parent_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.about_img_parent_div h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.img_and_content_facilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_img_div {
+    width: 50px;
+    height: auto;
+}
+
+.about_img_div img {
+    width: 100%;
+    height: auto;
+}
+
+.text p{
+    text-align: center;
+}
+
+/* ========================= hamburger =========================== */
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
+    .background-img {
+        background-size: cover;
+        background-position-x: right;
+        height: auto;
+    }
+
+    .desktop_view_navbar {
+        display: none;
+    }
+
+    .logo-img-div {
+        width: 85px;
+        height: 50px;
+    }
+
+    .banner_content_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .banner_heading {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .banner_heading_span {
+        color: white;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    /* .youtube_video{
+        width: 35%;
+    } */
+
+    /* start phoneView Navbar */
+
+    .phone_view_navbar {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .phone_view_navbar_logo_icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+    }
+
+    .phone_view_unorderlist {
+        display: none;
+        text-align: center;
+        list-style-type: none;
+        color: white;
+        font-size: small;
+        overflow: hidden;
+        animation: mymove 0.3s linear;
+    }
+
+    @keyframes mymove {
+        from {
+            height: 0px;
+        }
+
+        to {
+            height: 200px;
+        }
+    }
+
+    .phone_view_unorderlist {
+        top: 2%;
+    }
+
+    .phone_view_unorderlist li {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hamburger_bar_icon {
+        display: block;
+        color: white;
+    }
+
+    .close_hamburger_icon {
+        display: none;
+        color: white;
+    }
+
+    /* End phoneView Navbar */
+
+    .slider_child_div {
+        width: 100%;
+    }
+
+    .img_parent_div {
+        justify-content: center;
+    }
+
+    .contect_form_child {
+        width: 100%;
+        padding: 50px 5px;
+        border-radius: 0px;
+    }
+}
+
+/* ========================= end hamburger =========================== */
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .phone_view_navbar_logo_icons {
+        justify-content: space-around !important;
+    }
+
+    .background-img {
+        height: 75vh !important;
+    }
+
+    .banner_content_div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .banner_heading {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .phone_view_unorderlist {
+        top: 4%;
+    }
+
+    .treatment_team {
+        justify-content: center;
+    }
+
+    .img_parent_div {
+        justify-content: space-around;
+    }
+
+    .contect_form_child {
+        width: 75%;
+        padding: 50px 25px;
+        border-radius: 10px;
+    }
+}
