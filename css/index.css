@@ -8,7 +8,7 @@
 }
 
 /* @font-face {
-	font-family: GeosansLight;
+	
 	src: url("/fonts/flaticon/font/Flaticon.ttf");
 } */
 
@@ -52,6 +52,12 @@ html {
     flex-wrap: wrap;
 }
 
+.book_appointment{
+    font-weight: 900;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
 .phone_view_navbar {
     display: none;
 }
@@ -73,7 +79,7 @@ html {
     color: white;
     font-size: small;
     margin: 0%;
-    font-family: GeosansLight;
+    
 }
 
 .navbar_unorder_list li {
@@ -83,7 +89,7 @@ html {
 .navbar_unorder_list a {
     text-decoration: none;
     color: white;
-    font-family: GeosansLight;
+    
 }
 
 .navbar_unorder_list a:hover {
@@ -99,13 +105,13 @@ html {
     width: 100%;
     padding: 10px 0px;
     font-size: small;
-    font-family: GeosansLight;
+    
 }
 
 .phone_view_unorderlist a {
     text-decoration: none;
     color: white;
-    font-family: GeosansLight;
+    
 }
 
 .hamburger_bar_icon {
@@ -130,14 +136,14 @@ html {
     font-weight: 100;
     font-size: 75px;
     width: 50%;
-    font-family: GeosansLight;
+    
 }
 
 .banner_heading_span {
     color: white;
     font-weight: 600;
     font-size: 75px;
-    font-family: GeosansLight;
+    
 }
 
 .testimonials {
@@ -161,6 +167,7 @@ html {
     padding-left: 30px;
     position: relative;
     padding: 100px 50px;
+    font-family: auto;
 }
 
 .quote:before {
@@ -227,7 +234,7 @@ html {
     color: white;
     margin-left: 10px;
     width: 300px;
-    font-family: GeosansLight;
+    
 }
 
 
@@ -247,7 +254,7 @@ html {
 
 .address_icons p{
     font-size: small;
-    font-family: GeosansLight;
+    
 }
 
 .follow_us {
@@ -263,7 +270,7 @@ html {
     margin-top: 30px;
     text-decoration: none;
     color: white;
-    font-family: GeosansLight;
+    
 }
 
 .emial_no {
@@ -300,7 +307,7 @@ html {
     text-align: center;
     margin: 30px 0px;
     font-size: 30px;
-    font-family: GeosansLight;
+    
 }
 
 .contect_form_child span {
@@ -316,7 +323,7 @@ html {
     width: 100%;
     height: auto;
     font-size: small;
-    font-family: GeosansLight;
+    
 }
 
 .field_div {
@@ -355,7 +362,7 @@ select {
 
 .textarea_div label {
     font-size: small;
-    font-family: GeosansLight;
+    
 }
 
 .textarea {
@@ -366,7 +373,7 @@ select {
     padding-left: 10px;
     font-size: 15px;
     border-radius: 5px;
-    font-family: GeosansLight;
+    
 }
 
 .submit_button_div {
@@ -382,13 +389,12 @@ select {
     font-size: medium;
     padding: 5px 10px;
     border-radius: 5px;
-    font-family: GeosansLight;
+    
 }
 
 .why_section {
     width: 100%;
     height: auto;
-    /* margin: 100px 0px; */
     background: url(/images/unnamed.png);
     padding: 50px 0px;
 }
@@ -397,7 +403,7 @@ select {
     font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
-    font-family: GeosansLight;
+    
 }
 
 .why_section_child {
@@ -471,13 +477,14 @@ p {
 
 .awards_section_child h2 {
     font-size: 30px;
-    font-family: GeosansLight;
+    text-align: center;
+    
 }
 
 .awards_section_child li {
     margin: 20px 0px;
     font-size: 15px;
-    font-family: GeosansLight;
+    
 }
 
 .our_team_section {
@@ -497,7 +504,7 @@ p {
     font-size: 30px;
     color: black;
     font-weight: bold;
-    font-family: GeosansLight;
+    
 }
 
 .treatment_team {
@@ -525,11 +532,11 @@ p {
     text-align: center;
     margin: 30px 0px;
     font-size: 30px;
-    font-family: GeosansLight;
 }
 
 .our_team_card_div:hover {
-    box-shadow: 0px 10px 20px #646464;
+    transition: all 1s;
+    box-shadow: 0px 5px 20px #646464;
 }
 
 .our_team_img_div {
@@ -549,20 +556,19 @@ p {
     color: white;
     font-size: 15px;
     text-align: center;
-    font-family: GeosansLight;
+    font-family: serif;
 }
 
 .team_content {
     color: white;
     font-size: small;
     text-align: center;
-    font-family: GeosansLight;
+    font-family: serif;
 }
 
 .gallery {
     width: 100%;
     height: auto;
-    /* background: url(/images/service1.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1px 0px;
@@ -612,7 +618,7 @@ p {
     text-align: center;
     font-size: 30px;
     margin: 50px 0px;
-    font-family: GeosansLight;
+    
 }
 
 .img_parent_div {
@@ -667,14 +673,17 @@ p {
 .about_div h1,
 p {
     color: white;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
-    font-family: GeosansLight;
+    
 }
 
 .about_div p {
     font-size: small;
-    font-family: GeosansLight;
+    
+}
+.about_div div {
+    margin:50px 0px ;
 }
 
 .about_img_parent_div {
@@ -688,7 +697,7 @@ p {
 .about_img_parent_div h2 {
     color: white;
     font-size: 20px;
-    font-family: GeosansLight;
+    
 }
 
 .img_and_content_facilities{
@@ -716,7 +725,7 @@ p {
 }
 .testimonials h5 {
     font-size: 30px;
-    font-family: GeosansLight;
+    
 }
 
 /* ========================= hamburger =========================== */
@@ -798,7 +807,7 @@ p {
         font-size: small;
         overflow: hidden;
         animation: mymove 0.3s linear;
-        font-family: GeosansLight;
+        
     }
 
     @keyframes mymove {
@@ -875,13 +884,13 @@ p {
         color: white;
         font-size: 50px;
         text-align: center;
-        font-family: GeosansLight;
+        
     }
     .banner_heading span{
         color: white;
         font-size: 50px;
         text-align: center;
-        font-family: GeosansLight;
+        
     }
 
     .treatment_team {
