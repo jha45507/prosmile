@@ -249,12 +249,19 @@ html {
 .address_icons {
     margin: 10px 0px;
     display: flex;
+    text-decoration: none;
+}
+.address_icons:hover {
+    text-decoration: none;
 }
 
+.address_icons i, p{
+    margin: 0px 5px;
+    color: white;
+}
 
 .address_icons p{
     font-size: small;
-    
 }
 
 .follow_us {
@@ -484,7 +491,7 @@ p {
 .awards_section_child li {
     margin: 20px 0px;
     font-size: 15px;
-    
+    font-family: math;
 }
 
 .our_team_section {
@@ -505,6 +512,10 @@ p {
     color: black;
     font-weight: bold;
     
+}
+
+.highlight_sub_heading{
+    font-weight: 100;
 }
 
 .treatment_team {
@@ -555,8 +566,8 @@ p {
 .team_name {
     color: white;
     font-size: 15px;
-    text-align: center;
-    font-family: serif;
+    text-align: center;    
+    font-family: math;
 }
 
 .team_content {
@@ -675,12 +686,11 @@ p {
     color: white;
     text-align: center;
     font-size: 30px;
-    
 }
 
 .about_div p {
     font-size: small;
-    
+    font-family: math;
 }
 .about_div div {
     margin:50px 0px ;
@@ -720,12 +730,15 @@ p {
     text-align: center;
 }
 
+.testimonials_content{
+    font-family: math;
+}
+
 .testimonials h5, h3 {
     text-align: center;
 }
 .testimonials h5 {
     font-size: 30px;
-    
 }
 
 /* ========================= hamburger =========================== */

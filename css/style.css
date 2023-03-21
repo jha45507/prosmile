@@ -370,10 +370,11 @@ p {
 	font-weight: 100;
 	margin:0;
 	color: #fff;
-	font-size: 18px;
+	font-size: small;
+	font-family: math;
 } .services .text span{
 	color: #fff;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: bold;
 }.modal-body p{
 	text-align: justify;
@@ -861,10 +862,11 @@ textarea::placeholder{
 } */
 .popup-btn{
 	border: 0;
-background: transparent;
-color: #ec851f;
-padding: 0;
-margin: auto;
+	background: transparent;
+	color: #ec851f;
+	padding: 0;
+	margin: auto;
+	font-size: 15px;
 }
 
 .modal.show .modal-dialog {
