@@ -534,9 +534,9 @@ p {
     justify-content: start;
     align-items: center;
     border-radius: 25px;
-    background-color: #333333;
-    padding: 10px;
-    margin: 10px;
+    background-color: #f3f0f0;
+    padding-top: 10px;
+    margin: 10px 0px;
 }
 
 .services_heading{
@@ -547,12 +547,12 @@ p {
 
 .our_team_card_div:hover {
     transition: all 1s;
-    box-shadow: 0px 5px 20px #646464;
+    box-shadow: 0px 5px 10px #cecece;
 }
 
 .our_team_img_div {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .our_team_img_div img {
@@ -564,14 +564,14 @@ p {
 }
 
 .team_name {
-    color: white;
+    color: black;
     font-size: 15px;
     text-align: center;    
     font-family: math;
 }
 
 .team_content {
-    color: white;
+    color: black;
     font-size: small;
     text-align: center;
     font-family: serif;

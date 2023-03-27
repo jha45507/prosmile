@@ -855,7 +855,7 @@ textarea::placeholder{
 	height: 60px;
 }
 .ser-icon img{
-	width: 50px;
+	width: auto;
 }
 /* .services .title{
 	padding-top: 40px;
