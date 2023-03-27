@@ -668,7 +668,7 @@ p {
     background: url(/images/hero_bg_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 0px;
+    padding: 1px 0px 20px 0px;
 }
 
 .child_about {
@@ -694,14 +694,14 @@ p {
     font-family: math;
 }
 .about_div div {
-    margin:50px 0px ;
+    margin:35px 0px ;
 }
 
 .about_img_parent_div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
     flex-wrap: wrap;
 }
 
@@ -740,6 +740,27 @@ p {
 }
 .testimonials h5 {
     font-size: 30px;
+}
+
+.why-section_child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.whyUsIcon{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.why-section_child h2{
+    font-size: 15px;
+}
+
+.why-us_children{
+    margin: 0 !important;
 }
 
 /* ========================= hamburger =========================== */
