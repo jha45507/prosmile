@@ -38,7 +38,8 @@ p {
 }
 
 .high-light-services{
-	box-shadow: 0px 0px 20px;
+	/* box-sizing: border-box;
+	border: 1px solid dodgerblue; */
 	border-radius: 10px;
 }
 
@@ -191,14 +192,18 @@ p {
 	background-attachment: fixed;
 } */
 .back-img {
-	background: url(/images/service.jpg);
+	background: url(/images/services_section_1.jpg);
+	/* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(/images/services_section_2.jpg); */
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position-y: center;
 }
 .services.overlay-white::before{
 	content: "";
 	position: absolute;
-	background: rgba(0,0,0,0.5);
+	background-color: #fff;
+	opacity: 0.7;
+	/* background: rgba(0,0,0,0.1); */
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -369,11 +374,11 @@ p {
 .services .text p{
 	font-weight: 100;
 	margin:0;
-	color: #fff;
+	color: black;
 	font-size: small;
 	font-family: math;
 } .services .text span{
-	color: #fff;
+	color: black;
 	font-size: 15px;
 	font-weight: bold;
 }.modal-body p{
@@ -856,6 +861,7 @@ textarea::placeholder{
 }
 .ser-icon img{
 	width: auto;
+	filter: invert(1);
 }
 /* .services .title{
 	padding-top: 40px;
@@ -863,7 +869,7 @@ textarea::placeholder{
 .popup-btn{
 	border: 0;
 	background: transparent;
-	color: #ec851f;
+	color: dodgerblue;
 	padding: 0;
 	margin: auto;
 	font-size: 15px;
