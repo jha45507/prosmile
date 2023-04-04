@@ -26,6 +26,7 @@ html {
     bottom: 20px;
     right: 20px;
     z-index: 3;
+    border-radius: 50%;
 }
 .reach_top_button button{
     background-color: darkslategrey;
