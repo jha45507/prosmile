@@ -17,7 +17,7 @@ document.body.addEventListener('scroll', function() {
 
 window.addEventListener("scroll", () => {
     if(window.scrollY > 0){
-        document.querySelector(".desktop_view_navbar").style.background = "#333333"
+        document.querySelector(".desktop_view_navbar").style.background = "#2F4F4F"
     }
     else{
         document.querySelector(".desktop_view_navbar").style.background = "transparent"

@@ -398,6 +398,10 @@ p {
 .bg-img img {
 	width: 100%;
 }
+
+.modal-content .text p{
+	color: white;
+}
 /* .demopadding {
 	margin:auto;
 	width:140px;
