@@ -856,6 +856,7 @@ swiper-container {
         background-color:black;
         opacity: 0.3;
         width: 100%;
+        height: 39vh;
         background-size: cover;
         background-position-x: right;
         top: 0;
@@ -869,10 +870,37 @@ swiper-container {
         display: none;
     }
 
-    .logo-img-div {
-        /* width: 85px; */
-        /* height: 50px; */
+    .about_div p {
+        text-align: justify;
     }
+
+    .logo-img-div {
+        z-index: 1;
+    }
+
+    .phone_view_navbar_icon_ham-and-cross{
+        z-index: 1;
+    }
+
+    .why-us_children{
+        margin: 25px 0px !important;
+    }
+
+    swiper-slide{
+        width: 150px;
+    }
+
+    .youtube_video{
+        width: 65%;
+      }
+
+      .why-section_child{
+        display: block;
+      }
+
+    .introduction_video_ifram{
+        height: 135px;
+      }
 
     .banner_content_div {
         display: flex;
@@ -931,7 +959,7 @@ swiper-container {
         font-size: small;
         overflow: hidden;
         animation: mymove 0.3s linear;
-        
+        z-index: 2;
     }
 
     @keyframes mymove {
@@ -945,7 +973,7 @@ swiper-container {
     }
 
     .phone_view_unorderlist {
-        top: 65px;
+        top: 55px;
     }
 
     .phone_view_unorderlist li {
@@ -989,6 +1017,17 @@ swiper-container {
 
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
+    .awards_section_child {
+        width: 100%;
+    }
+    swiper-slide {
+        width: 200px;
+    }
+
+    .our_team_card_div{
+        margin: 10px 10px;
+    }
+
     .phone_view_navbar_logo_icons {
         justify-content: space-around !important;
     }
@@ -999,23 +1038,34 @@ swiper-container {
 
     .banner_content_div {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: row;
-        align-items: baseline;
-        margin-top: 0px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .youtube_video {
+        width: 40%;
+    }
+
+    .introduction_video_ifram {
+        height: 169px;
+    }
+
+    .background-img::before {
+        height: 75vh;
     }
 
     .banner_heading {
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
-        
     }
+
     .banner_heading span{
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
-        
     }
 
     .treatment_team {
