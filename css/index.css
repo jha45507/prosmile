@@ -20,6 +20,26 @@ html {
     display: none;
 }
 
+.reach_top_button{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 3;
+}
+.reach_top_button button{
+    background-color: darkslategrey;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    scroll-behavior: smooth;
+    box-shadow: 0px 0px 10px rgb(39, 65, 65);
+}
+
 .mycontainer {
     width: 100%;
     height: auto;
@@ -29,6 +49,7 @@ html {
 .custom_container {
     width: 100%;
     height: auto;
+    position: relative;
 }
 
 .background-img {

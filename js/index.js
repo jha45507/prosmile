@@ -13,9 +13,11 @@ function close_hamburger() {
 window.addEventListener("scroll", () => {
     if (window.scrollY > 0) {
         document.querySelector(".desktop_view_navbar").style.background = "rgb(44 73 73)"
+        document.querySelector(".reach_top_button").style.display = "block"
     }
     else {
         document.querySelector(".desktop_view_navbar").style.background = "transparent"
+        document.querySelector(".reach_top_button").style.display = "none"
     }
 })
 
