@@ -529,6 +529,8 @@ p {
 .awards_section {
     width: 100%;
     height: auto;
+    background-color: darkslategrey;
+    padding: 20px 0px ;
     /* background-color: #137AE0; */
 }
 
@@ -541,7 +543,7 @@ p {
 .awards_section_child h2 {
     font-size: 30px;
     text-align: center;
-    
+    color: white;
 }
 
 .awards_section_child li {
