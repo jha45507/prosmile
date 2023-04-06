@@ -360,7 +360,7 @@ p {
 	margin: 15px 0px;
 } */
 .period {
-    color: #fff;
+    color:black;
     text-align: start;
     line-height: 1.6;
     padding: 0px 0px 0px 5px;
@@ -400,7 +400,7 @@ p {
 }
 
 .modal-content .text p{
-	color: white;
+	color: #2980b9;
 }
 /* .demopadding {
 	margin:auto;
@@ -885,10 +885,9 @@ textarea::placeholder{
 }
 
 .services .modal-content {
-    background: transparent;
+    background: white;
     border: 0;
-    color: #fff;
-    background: rgba(0,0,0,.95);
+    color: black;
     min-height: 40vh;
 	max-width: 120vh;
     padding: 10px;
@@ -897,7 +896,7 @@ textarea::placeholder{
 		top: 100px;
     position: relative;
 } .modal button.close {
-    color: #fff;
+    color: black;
     opacity: 1;
     font-weight: 100;
     position: absolute;
@@ -906,7 +905,7 @@ textarea::placeholder{
     font-size: 16px;
     z-index: 1;
 } .services .modal-body .text {
-    color: #ec851f;
+    color: black;
 	width: 100%;
     display: inline-block;
     cursor: pointer;
