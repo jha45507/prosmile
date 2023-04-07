@@ -92,9 +92,10 @@ if(!$successContact) {
                     <div>
                         <label for="">Number</label>
                     </div>
-                    <div class="field_div">
-                        <input type="text" name="phone" id="mobile" maxlength="10" pattern=".{10,11}" title="Enter a valid mobile number upto 10 digit" oninput="this.value=this.value.replace(/[^0-9]/g,'');" value="<?php echo $phone;?>" required>
+                    <div class="field_div flex_div_number">
+                    <span>+91</span> <input type="text" name="phone" id="mobile" maxlength="10" pattern="^((+91[0-9]{10})|(0[0-9]{10}))$" title="Enter a valid mobile number upto 10 digit" oninput="this.value=this.value.replace(/[^0-9]/g,'');" value="<?php echo $phone;?>" required>
                     </div>
+                    
                 </div>
             </div>
             <div class="contect_form_children">
