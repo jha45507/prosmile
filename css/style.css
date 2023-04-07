@@ -22,18 +22,21 @@ h4,
 h5,
 h6 {
 	font-weight: bold;
+	font-family: unset;
 }
 
 h2{
 	font-size: 30px;
+	font-family: unset;
 }
 
 h3{
 	font-size: unset;
+	font-family: unset;
 }
 
 p {
-	font-family: GeosansLight;
+	font-family: unset;
 	/* font-weight: bold; */
 }
 
@@ -192,7 +195,7 @@ p {
 	background-attachment: fixed;
 } */
 .back-img {
-	background: url(/images/services_section_1.jpg);
+	background: url(../images/services_section_1.jpg);
 	/* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(/images/services_section_2.jpg); */
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -215,6 +218,7 @@ p {
 
 .white{
 	color: #fff;
+	font-family: unset;
   }
 /* .contacts.parallax  {
 	background: url(../images/contact.jpg) no-repeat 0 0 / cover;
@@ -365,7 +369,7 @@ p {
     line-height: 1.6;
     padding: 0px 0px 0px 5px;
     font-size: 18px;
-    font-family: GeosansLight;
+    font-family: unset;
 }
 .services{
 	position: relative;
@@ -376,13 +380,15 @@ p {
 	margin:0;
 	color: black;
 	font-size: small;
-	font-family: math;
+	font-family: unset;
 } .services .text span{
 	color: black;
 	font-size: 15px;
 	font-weight: bold;
+	font-family: unset;
 }.modal-body p{
 	text-align: justify;
+    font-family: unset;
 }.textcontent{
 
 }
@@ -401,6 +407,7 @@ p {
 
 .modal-content .text p{
 	color: #2980b9;
+	font-family: unset;
 }
 /* .demopadding {
 	margin:auto;
@@ -856,6 +863,7 @@ textarea::placeholder{
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
+	/* font-family: unset; */
 }
 
 .ser-icon{
@@ -877,6 +885,7 @@ textarea::placeholder{
 	padding: 0;
 	margin: auto;
 	font-size: 15px;
+	font-family: unset;
 }
 
 .modal.show .modal-dialog {
@@ -893,8 +902,9 @@ textarea::placeholder{
     padding: 10px;
     overflow-y: auto;
     margin:auto;
-		top: 100px;
+	top: 100px;
     position: relative;
+    font-family: unset;
 } .modal button.close {
     color: black;
     opacity: 1;
@@ -904,11 +914,13 @@ textarea::placeholder{
     top: 10px;
     font-size: 16px;
     z-index: 1;
+	font-family: unset;
 } .services .modal-body .text {
     color: black;
 	width: 100%;
     display: inline-block;
     cursor: pointer;
+    font-family: unset;
 }
 .team-img img{
 	width: 100%;
@@ -926,9 +938,11 @@ textarea::placeholder{
 	font-weight: bold;
 	text-decoration: underline;
 	font-size: 19px;
+	font-family: unset;
 }
 .our-team .popup-btn{
 	color:red;
+    font-family: unset;
 }
 .fixedTop{
 	background: #0c0c0c;
@@ -949,28 +963,34 @@ textarea::placeholder{
 	color: #fff;
 	font-style: italic;
 	font-weight: 600;
+	font-family: unset;
 }
 .pro-detail{
 	font-size: medium;
 	color: #fff;
 	font-weight: 100;
+	font-family: unset;
 }
 .address p{
 	color: #000;
 	padding: 10px;
+    font-family: unset;
 }
 .success_msg{
 	color:#ec851f;
 	padding: 100px 30px;
+    font-family: unset;
 }
 .error_msg{
 	color:red;
+    font-family: unset;
 }
 
 .desig {
     font-style: italic;
     font-size: 12px;
     font-weight: bold;
+	font-family: unset;
 }
 
 .popup-img {
@@ -990,7 +1010,7 @@ textarea::placeholder{
     float: right;
     width: calc(100% - 140px);
     font-size: 12px;
-    font-family: inherit;
+    font-family: unset;
     line-height: 1.4;
     color: #333;
 }
@@ -1001,6 +1021,7 @@ textarea::placeholder{
     line-height: 1.2;
     margin-top: 10px;
     color: #333;
+    font-family: unset;
 }
 .popup-img img{
 	width: 100%;

@@ -25,7 +25,7 @@ html {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 3;
+    z-index: 9;
     border-radius: 50%;
 }
 .reach_top_button button{
@@ -39,6 +39,7 @@ html {
     font-size: 30px;
     scroll-behavior: smooth;
     box-shadow: 0px 0px 10px rgb(39, 65, 65);
+    font-family: unset;
 }
 
 .mycontainer {
@@ -97,6 +98,7 @@ html {
     display: flex;
     align-items: center;
     text-decoration: none;
+    font-family: unset;
 }
 
 .logo-img-div img {
@@ -112,16 +114,18 @@ html {
     color: white;
     font-size: small;
     margin: 0%;
-    
+    font-family: unset;
 }
 
 .navbar_unorder_list li {
     margin: 0px 15px;
+    font-family: unset;
 }
 
 .navbar_unorder_list a {
     text-decoration: none;
     color: white;
+    font-family: unset;
 }
 
 .navbar_unorder_list a:hover {
@@ -137,13 +141,13 @@ html {
     width: 100%;
     padding: 10px 0px;
     font-size: small;
-    
+    font-family: unset;
 }
 
 .phone_view_unorderlist a {
     text-decoration: none;
     color: white;
-    
+    font-family: unset;
 }
 
 .hamburger_bar_icon {
@@ -175,12 +179,14 @@ html {
     font-size: 75px;
     width: 50%;
     z-index: 1;
+    font-family: unset;
 }
 
 .banner_heading_span {
     color: white;
     font-weight: 600;
     font-size: 75px;
+    font-family: unset;
 }
 
 .testimonials {
@@ -204,12 +210,12 @@ html {
     padding-left: 30px;
     position: relative;
     padding: 100px 50px;
-    font-family: auto;
+    font-family:unset;
 }
 
 .quote:before {
     content: "";
-    background-image: url("/images/quote_before.png");
+    background-image: url("../images/quote_before.png");
     background-size: 100%;
     width: 120px;
     height: 100px;
@@ -222,7 +228,7 @@ html {
 
 .quote:after {
     content: "";
-    background-image: url("/images/quote_after.png");
+    background-image: url("../images/quote_after.png");
     background-size: 100%;
     width: 120px;
     height: 100px;
@@ -239,7 +245,7 @@ html {
     width: 100%;
     height: auto;
     background-color: darkslategray;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .footer_first_child {
@@ -265,13 +271,14 @@ html {
     margin: 10px 0px;
     font-size: small;
     list-style-type: none;
+    font-family: unset;
 }
 
 .footer_navigation ul li  a {
     text-decoration: none;
     color: white;
     margin-left: 0px;
-    width: 300px;
+    font-family:unset;
 }
 .footer_navigation ul li  a:hover {
     text-decoration: underline white;
@@ -302,6 +309,7 @@ html {
 
 .address_icons p{
     font-size: small;
+    font-family: unset;
 }
 
 .follow_us {
@@ -317,7 +325,11 @@ html {
     margin-top: 30px;
     text-decoration: none;
     color: white;
-    
+    font-family: unset;
+}
+
+.exp-expertise-img{
+    width: 20px;
 }
 
 .emial_no {
@@ -327,6 +339,7 @@ html {
 .social_icons a {
     color: white;
     text-decoration: none;
+    font-family: unset;
 }
 
 .social_icons i {
@@ -337,11 +350,13 @@ html {
     color: #137AE0;
 }
 
-.follow_section_contact_info div{
-    color: white !important;
+.follow_section_contact_info div a{
+    color: white;
     text-align: left;
+    text-decoration: none;
+    font-family: unset;
 }
-.follow_section_contact_info div:hover{
+.follow_section_contact_info div a:hover{
     color: #137AE0;
 }
 
@@ -369,6 +384,7 @@ html {
     text-align: center;
     margin: 30px 0px;
     font-size: 30px;
+    font-family: unset;
 }
 
 .contect-form-heading{
@@ -376,6 +392,7 @@ html {
     font-size: 30px;
     margin: 20px 0px;
     font-weight: 100;
+    font-family: unset;
 }
 
 .book_appointment{
@@ -400,6 +417,7 @@ html {
     width: 100%;
     height: auto;
     font-size: small;
+    font-family: unset;
 }
 
 .field_div {
@@ -438,7 +456,7 @@ select {
 
 .textarea_div label {
     font-size: small;
-    
+    font-family: unset;
 }
 
 .textarea {
@@ -449,7 +467,7 @@ select {
     padding-left: 10px;
     font-size: 15px;
     border-radius: 5px;
-    
+    font-family: unset;
 }
 
 .submit_button_div {
@@ -465,13 +483,13 @@ select {
     font-size: medium;
     padding: 5px 10px;
     border-radius: 5px;
-    
+    font-family: unset;
 }
 
 .why_section {
     width: 100%;
     height: auto;
-    background: url(/images/unnamed.png);
+    background: url(../images/unnamed.png);
     padding: 50px 0px;
 }
 
@@ -479,6 +497,7 @@ select {
     font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: unset;
 }
 
 .why_section_child {
@@ -535,6 +554,7 @@ select {
 p {
     text-align: center;
     color: white;
+    font-family: unset;
 }
 
 .awards_section {
@@ -555,12 +575,13 @@ p {
     font-size: 30px;
     text-align: center;
     color: white;
+    font-family: unset;
 }
 
 .awards_section_child li {
     margin: 20px 0px;
     font-size: 15px;
-    font-family: math;
+    font-family: unset;
 }
 
 .our_team_section {
@@ -580,7 +601,7 @@ p {
     font-size: 30px;
     color: black;
     font-weight: bold;
-    
+    font-family: unset;
 }
 
 .highlight_sub_heading{
@@ -613,6 +634,7 @@ p {
     text-align: center;
     margin: 30px 0px;
     font-size: 30px;
+    font-family: unset;
 }
 
 .our_team_card_div:hover {
@@ -636,21 +658,21 @@ p {
     color: black;
     font-size: 15px;
     text-align: center;    
-    font-family: math;
+    font-family: unset;
 }
 
 .team_content {
     color: black;
     font-size: small;
     text-align: center;
-    font-family: serif;
+    font-family: unset;
 }
 
 .gallery {
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
-    background: url(/images/dental.jpg);
+    background: url(../images/dental.jpg);
     background-size: cover;
     padding: 1px 0px;
 }
@@ -689,6 +711,7 @@ p {
 .award_img_div h3 {
     text-align: center;
     margin-top: 20px;
+    font-family: unset;
 }
 
 .award_img {
@@ -713,6 +736,7 @@ p {
     text-align: center;
     font-size: 30px;
     margin: 50px 0px;
+    font-family: unset;
 }
 
 .img_parent_div {
@@ -725,6 +749,7 @@ p {
 
 .img_parent_div h3 {
     margin: 20px 0px;
+    font-family: unset;
 }
 
 .img_div {
@@ -748,7 +773,7 @@ p {
 .about_us_page {
     width: 100%;
     height: auto;
-    background: url(/images/hero_bg_2.jpg);
+    background: url(../images/hero_bg_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1px 0px 1px 0px;
@@ -782,11 +807,12 @@ p {
     color: white;
     text-align: center;
     font-size: 30px;
+    font-family: unset;
 }
 
 .about_div p {
     font-size: small;
-    font-family: math;
+    font-family: unset;
 }
 .about_div div {
     margin:35px 0px ;
@@ -803,6 +829,7 @@ p {
 .about_img_parent_div h2 {
     color: white;
     font-size: 15px;
+    font-family: unset;
 }
 
 .img_and_content_facilities{
@@ -823,17 +850,20 @@ p {
 
 .text p{
     text-align: center;
+    font-family: unset;
 }
 
 .testimonials_content{
-    font-family: math;
+    font-family: unset;
 }
 
 .testimonials h5, h3 {
     text-align: center;
+    font-family: unset;
 }
 .testimonials h5 {
     font-size: 30px;
+    font-family: unset;
 }
 
 .why-section_child{
@@ -855,6 +885,7 @@ p {
 
 .why-section_child h2{
     font-size: 15px;
+    font-family: unset;
 }
 
 .why-us_children{
@@ -912,11 +943,65 @@ swiper-container {
     text-align: center;
     font-weight: 600;
     font-size: 30px;
+    font-family: unset;
 }
 
 .phone_view_button{
     display: none;
 }
+
+.parent_location-section{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.parent_location-section h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: unset;
+}
+
+.child_location-section{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.location_sections h1{
+    font-size: 25px;
+    font-family: unset;
+}
+
+.location_sections a p{
+    color: black;
+    font-family: unset;
+    font-size: small;
+}
+.location_sections a p:hover{
+    color: #137AE0;
+}
+.location_sections a i:hover{
+    color: #137AE0;
+}
+.location_sections a i{
+    color: black;
+}
+
+.clinic_img{
+    margin: auto;
+    width: 70%;
+}
+
+.btn-close-cls{
+    font-size: 30px !important;
+    z-index: 2 !important;
+    font-family: unset;
+}
+
 
 /* ========================= hamburger =========================== */
 @media only screen and (min-width: 0px) and (max-width: 768px) {
@@ -925,10 +1010,22 @@ swiper-container {
         overflow-x: hidden;
     }
 
+    .reach_top_button{
+        display: none;
+        position: fixed;
+        bottom: 75px;
+        right: 20px;
+        z-index: 9;
+        border-radius: 50%;
+    }
+
     .Book_Appointment_btn_link{
         display: none;
     }
 
+    .child_location-section{
+        display: block;
+    }
     .phone_view_button{
         position: fixed;
         bottom: 0px;
@@ -946,6 +1043,7 @@ swiper-container {
         outline: none;
         margin: 0px 5px;
         color: #137AE0;
+        font-family: unset;
     }
 
     .background-img {
@@ -976,6 +1074,7 @@ swiper-container {
 
     .about_div p {
         text-align: justify;
+        font-family: unset;
     }
 
     .logo-img-div {
@@ -1017,12 +1116,14 @@ swiper-container {
         color: white;
         font-size: 25px;
         text-align: center;
+        font-family: unset;
     }
 
     .banner_heading_span {
         color: white;
         font-weight: 900;
         font-size: 25px;
+        font-family: unset;
     }
 
     .banner_content_div {
@@ -1064,6 +1165,7 @@ swiper-container {
         overflow: hidden;
         animation: mymove 0.3s linear;
         z-index: 2;
+        font-family: unset;
     }
 
     @keyframes mymove {
@@ -1083,6 +1185,7 @@ swiper-container {
     .phone_view_unorderlist li {
         text-align: center;
         margin-bottom: 10px;
+        font-family: unset;
     }
 
     .hamburger_bar_icon {
@@ -1168,12 +1271,14 @@ swiper-container {
         color: white;
         font-size: 40px;
         text-align: center;
+        font-family: unset;
     }
 
     .banner_heading span{
         color: white;
         font-size: 40px;
         text-align: center;
+        font-family: unset;
     }
 
     .treatment_team {
@@ -1190,3 +1295,233 @@ swiper-container {
         border-radius: 10px;
     }
 }
+
+
+
+
+/* ****************************************************************************/
+/** *** MEDIA *** **/
+@media all and (min-width: 768px) {
+    .sticky-nav-wrapper {
+        display: none;
+    }
+    .mobile-view {
+        display:  none;
+    }
+    .footer-bottom {
+        margin-bottom: 0 !important;
+    }
+}
+@media all and (max-width: 1199px) {
+    .work {
+        height: 250px;
+        min-height: 250px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        max-width: 970px;
+    }
+    .container > .w-70,
+    .container-fluid > .w-70 {
+        width: 100%;
+        float: none;
+    }
+    .p-100 {
+        padding: 80px 10px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        font-family: unset;
+    }
+    .testimonials {
+        padding: 80px 0;
+    }
+    .container .w-30 {
+        width: 100%;
+        margin: auto;
+        float: none;
+        max-width: 350px;
+    }
+    #header .navigation a::before {
+        display: none;
+    }
+    #header .header-content {
+        padding: 10px 0;
+    }
+    #header .logo {
+        width: 160px;
+    }
+    #header .nav-toggle {
+        top: 0;
+        right: 0;
+        position: relative;
+    }
+    #header.fixed .logo {
+        width: 150px;
+    }
+    .quotes blockquote {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .quotes blockquote p,
+    .testimonials p {
+        font-size: 24px;
+        font-family: unset;
+    }
+    .flexslider {
+        padding-bottom: 0;
+    }
+    .contact-form.fixed {
+        position: static;
+    }
+    .banner {
+        height: 550px;
+        min-height: 550px;
+    }
+    .banner-text {
+        padding: 24% 0 15% 0;
+    }
+    .work {
+        height: 235px;
+        min-height: 235px;
+    }
+}
+@media all and (max-width: 991px) {
+    .quotes blockquote p,
+    .testimonials p {
+        font-size: 18px;
+        font-family: unset;
+    }
+    .quote::before,
+    .quote::after {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media all and (max-width: 767px) {
+    .banner-text {
+        padding: 40% 0 15% 0;
+    }
+    .banner {
+        background-size: auto;
+    }
+    .banner:hover {
+        background-size: auto;
+    }
+    .banner-text h1 {
+        font-size: 22px;
+    }
+    .banner-text p {
+        font-size: 14px;
+    }
+    .sticky-nav-wrapper {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: darkslategray;
+        color: gray;
+        z-index: 5;
+        -webkit-box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .sticky-nav-wrapper {
+        color: gray;
+    }
+    .sticky-nav li {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+    }
+    .sticky-nav li::after {
+        content: "";
+        position: absolute;
+        height: 60%;
+        background: #fff;
+        width: 1px;
+        right: 0;
+        top: 20%;
+    }
+    .sticky-nav li a {
+        color: #fff;
+    }
+    .sticky-nav .fa {
+        font-size: 23px;
+    }
+    .sticky-nav li span {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .works [class*="col-"] {
+        margin: 10px 0;
+        overflow: hidden;
+    }
+    .work .overlay {
+        opacity: 1;
+        background: rgba(255,255,255,.85);
+    }
+    .work-box .overlay h5,
+    .work-box .overlay p {
+        opacity: 1;
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    dl, ol, ul{
+        margin-bottom: 0px;
+    }
+
+}
+
+@keyframes phone {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    10%,
+    20% {
+        -webkit-transform: rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+        transform: rotate(-8deg);
+    }
+    30%,
+    50%,
+    70% {
+        -webkit-transform: rotate(8deg);
+        -ms-transform: rotate(8deg);
+        transform: rotate(8deg);
+    }
+    40%,
+    60% {
+        -webkit-transform: rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+        transform: rotate(-8deg);
+    }
+    80% {
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+.fa-phone.animated,
+.fa-phone.animated-hover:hover,
+.fa-parent.animated-hover:hover>.fa-phone {
+    -webkit-animation: phone 2s linear infinite;
+    -ms-animation: phone 2s linear infinite;
+    animation: phone 2s linear infinite;
+}
+/* ****************************************************************************/
